@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#drawing{
+    width: 100%;
+    margin-top: 5%;
+}
+
+#palette, #tools, #drawing, #tools div{
+    display: flex;
+    justify-content: center;
+}
+#palette{
+    flex-direction: column;
+   justify-content: space-around;
+   margin-left: 5%;
+}
+#tools{
+    width: 90%;
+}
+#tools div{
+    margin: 2%;
+    align-items: center;
+}
+canvas{
+    border: 2px solid black;
+}
+#palette div, #tools div{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+}
+
+.las{
+    font-size: 80px;
+}
